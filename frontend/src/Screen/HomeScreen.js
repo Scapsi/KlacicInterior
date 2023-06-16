@@ -1,7 +1,5 @@
 import { Button, Col, Container, Row } from 'react-bootstrap';
-import data from '../data';
-import { Link } from 'react-router-dom';
-import { useEffect, useReducer, useState } from 'react';
+import { useEffect, useReducer } from 'react';
 import axios from 'axios';
 import Product from '../component/Product';
 import LoadingBox from '../component/LoadingBox';

@@ -5,13 +5,12 @@ import {
   Button,
   Card,
   Col,
-  Container,
   ListGroup,
   ListGroupItem,
   Row,
 } from 'react-bootstrap';
 import { Helmet } from 'react-helmet-async';
-import { Navigate, useNavigate, useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import Rating from '../component/Rating';
 import { getError } from '../component/Utilis';
 import { Store } from '../Store';

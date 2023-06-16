@@ -2,7 +2,7 @@ import { useContext } from 'react';
 import { Store } from '../Store';
 import { Helmet } from 'react-helmet-async';
 import { Button, Card, Col, ListGroup, Row } from 'react-bootstrap';
-import { Link, Navigate, useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import MessageBox from '../component/MessageBox';
 import axios from 'axios';
 
